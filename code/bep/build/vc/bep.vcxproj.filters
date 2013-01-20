@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\module">
+      <UniqueIdentifier>{fdea2b7c-1b98-4256-ba10-0aad3432894d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\module">
+      <UniqueIdentifier>{64d317a2-391d-4811-88c5-772de2417b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sts">
+      <UniqueIdentifier>{87319de5-c01a-4b7a-9942-8f122a0cd203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sts">
+      <UniqueIdentifier>{0f2130cf-53a2-4ab5-8f38-99f7128687e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sts\prio_mgmt">
+      <UniqueIdentifier>{6acd4a80-c085-4cb7-bfbc-cea29f164add}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\module\prio_mgmt.h">
+      <Filter>Header Files\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\module\list.h">
+      <Filter>Header Files\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\sts\sts.h">
+      <Filter>Header Files\sts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sts\prio_mgmt\prio_lt_512.h">
+      <Filter>Source Files\sts\prio_mgmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sts\prio_mgmt\prio_lt_4096.h">
+      <Filter>Source Files\sts\prio_mgmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sts\prio_mgmt\prio_lt_64.h">
+      <Filter>Source Files\sts\prio_mgmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\sts\sts_cfg.h">
+      <Filter>Header Files\sts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\sts\sts.c">
+      <Filter>Source Files\sts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sts\prio_mgmt\prio_lt_512.c">
+      <Filter>Source Files\sts\prio_mgmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sts\prio_mgmt\prio_lt_4096.c">
+      <Filter>Source Files\sts\prio_mgmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sts\prio_mgmt\prio_mgmt.c">
+      <Filter>Source Files\sts\prio_mgmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sts\list.c">
+      <Filter>Source Files\sts</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prio_mgmt", "prio_mgmt.vcxproj", "{9D7246ED-C49D-45BB-9B4F-8897448464AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bep", "..\..\..\..\..\bep\build\vc\bep.vcxproj", "{9BFDF56D-A54D-434D-A75F-B36690F82435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7246ED-C49D-45BB-9B4F-8897448464AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D7246ED-C49D-45BB-9B4F-8897448464AE}.Debug|Win32.Build.0 = Debug|Win32
+		{9D7246ED-C49D-45BB-9B4F-8897448464AE}.Release|Win32.ActiveCfg = Release|Win32
+		{9D7246ED-C49D-45BB-9B4F-8897448464AE}.Release|Win32.Build.0 = Release|Win32
+		{9BFDF56D-A54D-434D-A75F-B36690F82435}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BFDF56D-A54D-434D-A75F-B36690F82435}.Debug|Win32.Build.0 = Debug|Win32
+		{9BFDF56D-A54D-434D-A75F-B36690F82435}.Release|Win32.ActiveCfg = Release|Win32
+		{9BFDF56D-A54D-434D-A75F-B36690F82435}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
